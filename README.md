@@ -1,3 +1,3 @@
-# Stevens-Website
+# Personal-Website
 My own personal website.
-It will be basic at first, but I hope it will be impressive one day.
+Will be updated every now and then as I develop ny skills and actually have valid things for a portfolio.
