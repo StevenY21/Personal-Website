@@ -1,0 +1,193 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #5DADE2 ;
+    background: url(https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+a {
+    color:white;
+}
+.container {
+    max-width: 800px;
+    margin: 10px 300px 10px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #154360;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* intro Section */
+.intro {
+    text-align: center;
+    background-image:linear-gradient(white to blue)
+}
+.intro-content {
+    padding: 50px 10px 50px 10px;
+    float:right;
+    width: 50%;
+}
+.intro-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    text-align: left;
+}
+
+.intro-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    color: black;
+    text-align: left;
+}
+.intro-content p {
+    text-align: left;
+    margin-right: 150px;
+}
+.intro-pic {
+    padding: 50px 10px 50px 10px;
+}
+/* About Section */
+#about {
+    /*background-color: #fff;*/
+    margin-left:100px;
+    text-align: left;
+    padding: 80px 50px 80px 80px;
+    color: white;
+    
+}
+.abt-box {
+    padding: 50px 10px 50px 10px;
+    float:left;
+    width: 50%;
+}
+.BUimg {
+    padding: 50px 150px 50px 100px;
+}
+/* Skills Section */
+.skills {
+    /*margin:auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 80px 0;*/
+    /*max-width: 100%;
+    margin: 10px 300px 10px;
+    padding: 80px 0;*/
+    margin: 10px 0px 10px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 80px 0;
+    background-image:linear-gradient(white to blue);
+
+}
+
+.skillbox {
+    max-width: 800px;
+    Margin-left: 300px;
+    padding: 20px;
+    display: flex;
+}
+
+.box {
+    height: 25px;
+    width: 100px;
+    color:white;
+    background-color: rgb(77,77,77);
+    border: black;
+    border-radius:6px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.circle {
+    height: 12px;
+    width: 12px;
+    background-color: #3282f3;
+    border-radius: 50%;
+    margin: 5px
+}
+
+/* Achievements Section */
+.projects {
+    padding: 80px 0;
+}
+
+.projects ul {
+    list-style-type: none;
+}
+
+.projects ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-image:linear-gradient(white to blue);
+    padding: 80px 0;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.socials {
+    max-width: 800px;
+    margin: 10px 300px 10px;
+    padding: 20px;
+}
+.socials p {
+    float: left;
+}
